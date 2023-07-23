@@ -1,0 +1,54 @@
+.rectangle {
+  width: 380px;
+  height: 150px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: rgba(194, 168, 255, 0.3);
+  position: relative;
+}
+
+.square {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 12px;
+  left: 11px;
+}
+
+.mainText {
+  position: absolute;
+  top: 16px;
+  left: 47px;
+  width: 138px;
+
+  color: var(--material-theme-sys-light-on-surface, #1E1B1B);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  text-align: left;
+  margin: 0px;
+}
+
+.layer1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+
+
+
+}
+
+.layer2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 16px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+}
+
+

@@ -1,0 +1,115 @@
+.rectangle {
+  border-radius: 0px 0px 33px 33px;
+  width: 100%;
+  position: relative;
+}
+
+.img1 {
+  border-radius: 0px 0px 33px 33px;
+  width: 100%;
+  margin-top: -25%;
+  margin-left: 0px;
+  height: 500px;
+}
+
+.wrapper {
+  width: 100%;
+
+}
+
+.wrapper12 {
+  width: 100%;
+}
+
+
+.textwrapper {
+  font-family: 'DM Sans', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  font-weight: 400;
+  position: absolute;
+  height: 28px;
+  left: 23px;
+  top: 58px;
+
+}
+
+.search {
+  position: absolute;
+  left: 364px;
+  top: 62px;
+}
+
+.bigTemp {
+  color: #FFF;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 112px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  position: absolute;
+  left: 23px;
+  top: 204px;
+}
+
+.feelsLike {
+  color: #FFF;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  position: absolute;
+  left: 30px;
+  top: 287px;
+}
+
+
+.suncloud {
+  width: 107px;
+  height: 107px;
+  flex-shrink: 0;
+  position: absolute;
+  right: 24px;
+  top: 126px;
+}
+
+.discrip {
+  color: #FFF;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  position: absolute;
+  top: 247px;
+  left: 305px;
+  
+}
+
+.datatime {
+  color: #FFF;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  position: absolute;
+  left: 23px;
+  top: 350px;
+}
+
+.tempDayNight {
+  color: #FFF;
+  text-align: right;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  position: absolute;
+  left: 316px;
+  top: 330px;
+}

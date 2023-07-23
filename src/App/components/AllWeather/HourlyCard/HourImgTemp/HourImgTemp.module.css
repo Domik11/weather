@@ -1,0 +1,42 @@
+.box {
+  width: 32px;
+  height: 80px;
+  position: relative; 
+
+}
+
+.img {
+  width: 28px;
+  height: 28px;
+
+  margin-top: 6px;
+  margin-left: auto;
+  
+}
+
+.hours {
+
+  color: #000;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+.temp {
+  margin-top: 9px;
+  color: var(--material-theme-sys-light-on-surface, #1E1B1B);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  text-align: center;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+
+}

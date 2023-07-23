@@ -1,0 +1,29 @@
+.wrapper {
+
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 18px;
+}
+
+.rectangle {
+    background-color: #ffffff;
+    border-radius: 14px;
+    width: 116px;
+    height: 42px;
+
+    
+}
+
+.text {
+    font-family: 'DM Sans', sans-serif;
+    color: black;
+    /* font-size: 16px;
+    margin: 0 25% 0 25%; */
+    text-align: center;
+    margin-top: 8%;
+    font-weight: 500;
+}
