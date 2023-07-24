@@ -41,7 +41,7 @@ const AllWeather = (props) => {
         <HourlyCard className={s.hourlycard} data={p} />
       </div>
       <div className={s.layer}>
-        <DayForecast/>
+        <DayForecast data={p}/>
       </div>
 
 

@@ -29,7 +29,7 @@ const p = new Promise(function (resolve, reject) {
     }
 
     // Usage example: Change "London" to the desired city name
-    const cityName = "Moscow";
+    const cityName = "moscow";
     getWeatherData(cityName);
     
 });

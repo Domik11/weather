@@ -3,49 +3,39 @@ import s from "./DayForecast.module.css";
 import { useState, useEffect } from "react";
 import { LineChart, XAxis, YAxis, CartesianGrid, Line } from "recharts";
 
+
 const DayForecast = (props) => {
+  const p = props.data;
+  console.log(p)
+
   const data = [
     {
-      name: 'Page A',
-      uv: 4000,
-      pv: 2400,
-      amt: 2400,
+      name: 'Mon',
+      uv: p ? p.daily.temperature_2m_max[0] : null,
     },
     {
-      name: 'Page B',
-      uv: 3000,
-      pv: 1398,
-      amt: 2210,
+      name: 'Tue',
+      uv: p ? p.daily.temperature_2m_max[1] : null,
     },
     {
-      name: 'Page C',
-      uv: 2000,
-      pv: 500,
-      amt: 20000,
+      name: 'Wed',
+      uv: p ? p.daily.temperature_2m_max[2] : null,
     },
     {
-      name: 'Page D',
-      uv: 2780,
-      pv: 3908,
-      amt: 2000,
+      name: 'Thu',
+      uv: p ? p.daily.temperature_2m_max[3] : null,
     },
     {
-      name: 'Page E',
-      uv: 1890,
-      pv: 4800,
-      amt: 2181,
+      name: 'Fri',
+      uv: p ? p.daily.temperature_2m_max[4] : null,
     },
     {
-      name: 'Page F',
-      uv: 2390,
-      pv: 3800,
-      amt: 2500,
+      name: 'Sat',
+      uv: p ? p.daily.temperature_2m_max[5] : null,
     },
     {
-      name: 'Page G',
-      uv: 3490,
-      pv: 4300,
-      amt: 2300,
+      name: 'Sun',
+      uv: p ? p.daily.temperature_2m_max[6] : null,
     },
   ];
   return (
@@ -55,16 +45,15 @@ const DayForecast = (props) => {
           <img className={s.imgCard} src="src\assets\calendar.svg"></img>
         </div>
         <div className={s.mainText}>
-          Hourly forecast
+          Day forecast
         </div>
       </div>
       <div className={s.layer2}>
         <LineChart width={350} height={150} data={data}>
-          <XAxis dataKey="name" />
-          <YAxis />
-          <CartesianGrid stroke="#eee" strokeDasharray="5 5" />
-          <Line type="monotone" dataKey="uv" stroke="#8884d8" />
-          <Line type="monotone" dataKey="pv" stroke="#82ca9d" />
+          <XAxis className={s.daytext} dataKey="name" />
+          <YAxis className={s.daytext}/>
+          <CartesianGrid stroke="gray" strokeDasharray="0 0" />
+          <Line type="monotone" dataKey="uv" stroke="black" />
         </LineChart>
       </div>
 

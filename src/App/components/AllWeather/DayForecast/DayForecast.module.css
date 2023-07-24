@@ -50,4 +50,11 @@
   
 }
 
+.daytext {
+  color: var(--material-theme-sys-light-on-surface, #1E1B1B);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
 

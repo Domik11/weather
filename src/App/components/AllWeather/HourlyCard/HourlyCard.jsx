@@ -5,7 +5,6 @@ import { useState , useEffect } from "react";
 
 const HourlyCard = (props) => {
   const p = props.data;
-  console.log(p);
   
   const [currentTime, setCurrentTime] = useState(new Date());
   
