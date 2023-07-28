@@ -18,7 +18,7 @@
 
   color: #000;
   font-family: 'DM Sans', sans-serif;
-  font-size: 11px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 500;
   margin-left: auto;
@@ -28,7 +28,7 @@
 
 
 .temp {
-  margin-top: 9px;
+  margin-top: 11px;
   color: var(--material-theme-sys-light-on-surface, #1E1B1B);
   font-family: 'DM Sans', sans-serif;
   font-size: 16px;
