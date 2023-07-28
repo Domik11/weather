@@ -35,7 +35,7 @@ const AllWeather = (props) => {
       </div>
       <div className={s.layer}>
         <SmallCard className={s.pressure} name="Pressure" main={p ? Math.round(p.hourly.surface_pressure[hours]) + "hpa" : <div>--hpa</div>} imgsrc="src\assets\Pressure.svg" />
-        <SmallCard className={s.uvindex} name="UV index" main={p ? p.hourly.uv_index[hours] : <div>--</div>} imgsrc="src\assets\tuchka.svg" />
+        <SmallCard className={s.uvindex} name="UV index" main={p ? p.hourly.uv_index[hours] : <div>--</div>} imgsrc="src/assets/UV.svg" />
       </div>
       <div className={s.layer}>
         <HourlyCard className={s.hourlycard} data={p} />
