@@ -9,12 +9,8 @@ const DayForecast = (props) => {
 
   let daysOfWeek = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
   let toDay = new Date();
-  // let n = toDay.getDay();
-  let n = 3;
-  let newDaysOfWeek = daysOfWeek.splice(n).concat(daysOfWeek);
-  // for (let i=0;i<8-n;i++) {
-  //   newDaysOfWeek.unshift(newDaysOfWeek.pop())
-  // }
+  let n = toDay.getDay();
+  let newDaysOfWeek = daysOfWeek.splice(n-1).concat(daysOfWeek);
   console.log(newDaysOfWeek)
 
   const data = [
