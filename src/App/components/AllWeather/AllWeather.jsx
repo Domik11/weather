@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react'
 import HourlyCard from "./HourlyCard/HourlyCard";
 import { Grid } from '@mui/material';
 import DayForecast from "./DayForecast/DayForecast";
+import ChanceOfRain from "./ChanceOfRain/ChanceOfRain";
 
 const AllWeather = (props) => {
 
@@ -43,7 +44,10 @@ const AllWeather = (props) => {
       <div className={s.layer}>
         <DayForecast data={p}/>
       </div>
-
+      <div className={s.layer}>
+        <ChanceOfRain data={p}/>
+      </div>
+      
 
       
     </div>
